@@ -1,0 +1,65 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* color variables*/
+:root{
+    --primary-font-family: 'poppins', 'sans-sarif';
+    --light-white: #FFFFF7;
+    --gray:#808080;
+    --gray-1:#D3D3D3;
+
+}
+
+
+
+body{ font-family: var(--primary-font-family);
+    font-size: 14px;
+
+}
+/*Main css*/
+.wrapper {
+    padding: 0 0 100px;
+    background-image: url("imges/bg.png");
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+.wrapper .logo img {
+    max-width: 40%;
+
+}
+
+.wrapper input{
+   
+    border-color: var(--gray-1);
+    color: var(--gray);
+}
+
+.wrapper input:focus{
+    box-shadow: none;
+}
+.wrapper .submit_btn{
+    padding: 15px;
+    font-weight: 500;
+
+}
+
+.wrapper .login_with{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+   
+}
+.wrapper .login_with img{
+    max-width: 6%;
+}
